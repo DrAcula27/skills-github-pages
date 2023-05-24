@@ -14,7 +14,7 @@ These are the elements outlined in John Gruber’s original design document. All
 
 | Element | Markdown Syntax | Output |
 | --- | --- | --- |
-| [Headings](https://www.markdownguide.org/basic-syntax/#headings) | # H1 <br> <br> ## H2 <br> <br> ### H3 <br> <br> #### H4 <br> <br> ##### H5 <br> <br> ###### H6 | <h1> H1 </h1> <br> <h2> H2 </h2> <br> <h3> H3 </h3> <br> <h4> H4 </h4> <br> <h5> H5 </h5> <br> <h6> H6 </h6> |
+| [Headings](https://www.markdownguide.org/basic-syntax/#headings) | # H1 <br> <br> ## H2 <br> <br> ### H3 <br> <br> #### H4 <br> <br> ##### H5 <br> <br> ###### H6 | # H1 <br> <h2> H2 </h2> <br> <h3> H3 </h3> <br> <h4> H4 </h4> <br> <h5> H5 </h5> <br> <h6> H6 </h6> |
 | [Bold](https://www.markdownguide.org/basic-syntax/#bold) | \*\*bold text\*\* <br> \_\_bold text\_\_ | **bold text** <br> __bold text__ |
 | [Italic](https://www.markdownguide.org/basic-syntax/#italic) | \_italicized text\_ <br> \*italicized text\* | _italicized text_ <br> *italicized text* |
 | [Blockquote](https://www.markdownguide.org/basic-syntax/#blockquotes-1) | \> blockquote | <blockquote> blockquote </blockquote> |
