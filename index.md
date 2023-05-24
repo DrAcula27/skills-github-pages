@@ -93,7 +93,7 @@ These are the elements outlined in John Gruber’s original design document. All
   </tr>
   <tr>
     <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#images-1">Image</a></h3> </td>
-    <td> ![alt text]\(https://picsum.photos/200 "random image") </td>
+    <td> ![alt text](https://picsum.photos/200 "random image") </td>
     <td> <img src="https://picsum.photos/200" alt="random image"/> </td>
   </tr>
 </table>
@@ -106,10 +106,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 **Syntax:**
 
-\| Element | Description | <br>
-\| --- | --- | <br>
-\| Header | Title | <br>
-\| Paragraph | Text | <br>
+\| Element \| Description \| <br>
+\| --- \| --- \| <br>
+\| Header \| Title \| <br>
+\| Paragraph \| Text \| <br>
 
 **Output:**
 
@@ -171,20 +171,20 @@ _To get desired output in GitHub, use HTML_
 _To get desired output in GitHub, use HTML_
 
 First Term <br>
-: This is the definition of the first term.
+\: This is the definition of the first term.
 
 Second Term <br>
-: This is one definition of the second term. <br>
-: This is another definition of the second term.
+\: This is one definition of the second term. <br>
+\: This is another definition of the second term.
 
 **Output:**
 
 <dl>
   <dt>First Term</dt>
-  <dd>This is the definition of the first term.</dd>
+    <dd>This is the definition of the first term.</dd>
   <dt>Second Term</dt>
-  <dd>This is one definition of the second term. </dd>
-  <dd>This is another definition of the second term.</dd>
+    <dd>This is one definition of the second term. </dd>
+    <dd>This is another definition of the second term.</dd>
 </dl>
 
 ### [Strikethrough](https://www.markdownguide.org/extended-syntax/#strikethrough)
@@ -201,8 +201,8 @@ Second Term <br>
 
 **Syntax:**
 
-\- [x] Completed Task <br>
-\- [ ] Incomplete Task
+\- \[x] Completed Task <br>
+\- \[ ] Incomplete Task
 
 **Output:**
 
@@ -218,9 +218,10 @@ That is so funny! `:joy:`
 
 **Output:**
 
-That is so funny! :joy:
+That is so funny! 😂
 
-### [Highlight](https://www.markdownguide.org/extended-syntax/#highlight) $${\color{red}!!Does \space not \space work \space in \space GitHub \space .md \space files!!}$$
+### [Highlight](https://www.markdownguide.org/extended-syntax/#highlight) <br>
+_**GitHub does not support highlighting text**_
 
 **Syntax:**
 
