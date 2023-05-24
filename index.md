@@ -8,6 +8,16 @@ This Markdown cheat sheet provides a quick overview of all the Markdown syntax e
 
 ### For a GitHub friendly Markdown Cheat Sheet, check out [GitHub's wiki](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
+
 ## Basic Syntax
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
