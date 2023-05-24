@@ -8,32 +8,95 @@ This Markdown cheat sheet provides a quick overview of all the Markdown syntax e
 
 ### For a GitHub friendly Markdown Cheat Sheet, check out [GitHub's wiki](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-<table>
-  <tr>
-    <td>One</td>
-    <td>Two</td>
-  </tr>
-  <tr>
-    <td colspan="2">Three</td>
-  </tr>
-</table>
-
 ## Basic Syntax
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
-| Element | Markdown Syntax | Output |
-| --- | --- | --- |
-| [Headings](https://www.markdownguide.org/basic-syntax/#headings) | # H1 <br> <br> ## H2 <br> <br> ### H3 <br> <br> #### H4 <br> <br> ##### H5 <br> <br> ###### H6 | # H1 <br> <h2> H2 </h2> <br> <h3> H3 </h3> <br> <h4> H4 </h4> <br> <h5> H5 </h5> <br> <h6> H6 </h6> |
-| [Bold](https://www.markdownguide.org/basic-syntax/#bold) | \*\*bold text\*\* <br> \_\_bold text\_\_ | **bold text** <br> __bold text__ |
-| [Italic](https://www.markdownguide.org/basic-syntax/#italic) | \_italicized text\_ <br> \*italicized text\* | _italicized text_ <br> *italicized text* |
-| [Blockquote](https://www.markdownguide.org/basic-syntax/#blockquotes-1) | \> blockquote | <blockquote> blockquote </blockquote> |
-| [Ordered List](https://www.markdownguide.org/basic-syntax/#ordered-lists) | 1. First item <br> 2. Second item <br> 3. Third item | <ol><li>First item</li><li>Second item</li><li>Third item</li></ol> |
-| [Unordered List](https://www.markdownguide.org/basic-syntax/#unordered-lists) | - First item <br> - Second item <br> - Third item | <ul><li>First item</li><li>Second item</li><li>Third item</li></ul> |
-| [Code](https://www.markdownguide.org/basic-syntax/#code) | \`code\` | `code` |
-| [Horizontal Rule](https://www.markdownguide.org/basic-syntax/#horizontal-rules) | --- | <hr> |
-| [Link](https://www.markdownguide.org/basic-syntax/#links) | \[title]\(https://www.linkurl.com) | [title](https://www.linkurl.com) |
-| [Image](https://www.markdownguide.org/basic-syntax/#images-1) | \![alt text]\(https://picsum.photos/200 "random image") | ![alt text](https://picsum.photos/200 "random image") |
+<table>
+  <tr>
+    <th> Element </th>
+    <th> Markdown Syntax </th>
+    <th> Output </th>
+  </tr>
+  <tr>
+    <td rowspan="6"> <h3><a href="https://www.markdownguide.org/basic-syntax/#headings">Headings</a></h3> </td>
+    <td> # H1 </td>
+    <td> <h1> H1 </h1> </td>
+  </tr>
+  <tr>
+    <td> ## H2 </td>
+    <td> <h2> H2 </h2> </td>
+  </tr>
+  <tr>
+    <td> ### H3 </td>
+    <td> <h3> H3 </h3> </td>
+  </tr>
+  <tr>
+    <td> #### H4 </td>
+    <td> <h4> H4 </h4> </td>
+  </tr>
+  <tr>
+    <td> ##### H5 </td>
+    <td> <h5> H5 </h5> </td>
+  </tr>
+  <tr>
+    <td> ###### H6 </td>
+    <td> <h6> H6 </h6> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"> <h3><a href="https://www.markdownguide.org/basic-syntax/#bold">Bold</a></h3> </td>
+    <td> **bold text** </td>
+    <td> <strong>bold text</strong> </td>
+  </tr>
+  <tr>
+    <td> __bold text__ </td>
+    <td> <b>bold text</b> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"> <h3><a href="https://www.markdownguide.org/basic-syntax/#italic">Italic</a></h3> </td>
+    <td> _italic text_ </td>
+    <td> <em>italic text</em> </td>
+  </tr>
+  <tr>
+    <td> *italic text* </td>
+    <td> <i>italic text</i> </td>
+  </tr>
+  <tr>
+    <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#blockquotes-1">Blockquote</a></h3> </td>
+    <td> > blockquote </td>
+    <td> <blockquote> blockquote </blockquote> </td>
+  </tr>
+  <tr>
+    <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#ordered-lists">Ordered Lists</a></h3> </td>
+    <td> 1. First item <br> 1. Second item <br> 1. Third item </td>
+    <td> <ol><li>First item</li><li>Second item</li><li>Third item</li></ol> </td>
+  </tr>
+  <tr>
+    <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#unordered-lists">Unordered Lists</a></h3> </td>
+    <td> - First item <br> - Second item <br> - Third item </td>
+    <td> <ul><li>First item</li><li>Second item</li><li>Third item</li></ul> </td>
+  </tr>
+  <tr>
+    <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#code">Code</a></h3> </td>
+    <td> `code` </td>
+    <td> <code>code</code> </td>
+  </tr>
+  <tr>
+    <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#horizontal-rule">Horizonal Rule</a></h3> </td>
+    <td> --- </td>
+    <td> <hr> </td>
+  </tr>
+  <tr>
+    <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#links">Link</a></h3> </td>
+    <td> [link title](https://www.linkurl.com) </td>
+    <td> <a href="https://www.linkurl.com">Link title</a> </td>
+  </tr>
+  <tr>
+    <td> <h3><a href="https://www.markdownguide.org/basic-syntax/#images-1">Image</a></h3> </td>
+    <td> ![alt text]\(https://picsum.photos/200 "random image") </td>
+    <td> <img src="https://picsum.photos/200" alt="random image"/> </td>
+  </tr>
+</table>
 
 ## Extended Syntax
 
